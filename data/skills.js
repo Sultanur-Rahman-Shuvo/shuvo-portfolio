@@ -19,6 +19,13 @@ const data = [
     { id: 18, name: "MySQL", image: "/skills/mysql.png" },
     { id: 19, name: "Netlify", image: "/skills/netlify.png" },
     { id: 20, name: "GitHub", image: "/skills/git.png" },
+    { id: 21, name: "Python", image: "/skills/python.png" },
+    { id: 22, name: "MS Excel", image: "/skills/excel.png" },
+    { id: 23, name: "Tableau", image: "/skills/tableau.png" },
+    { id: 24, name: "PowerBI", image: "/skills/powerbi.png" },
+    { id: 25, name: "Canva", image: "/skills/canva.png" },
+    { id: 26, name: "Capcut", image: "/skills/capcut.png" },
+    { id: 27, name: "SMM", image: "/skills/smm.png" },
 ];
 
 export default data;

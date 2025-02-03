@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { MdClose } from "react-icons/md";
-import { TfiWorld } from "react-icons/tfi";
 import SkillComponent from "./SkillComponent";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
@@ -40,16 +39,6 @@ const Model = ({ state, details, toggleModel }) => {
                                 <FaGithub size={18} className="text-black dark:text-white" />
                                 <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
                                     source code
-                                </span>
-                            </Link>
-                            <Link
-                                href={details.demo}
-                                target="_blank"
-                                className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
-                            >
-                                <TfiWorld size={18} className="text-black dark:text-white" />
-                                <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
-                                    demo
                                 </span>
                             </Link>
                         </div>
